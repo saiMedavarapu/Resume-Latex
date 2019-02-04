@@ -1,0 +1,170 @@
+%-------------------------
+% Resume in Latex
+% Author : Sai Medavarapu
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[2]{
+  \item\small{
+    \textbf{#1}{: #2 \vspace{-4pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
+
+\renewcommand{\labelitemii}{$\circ$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  CV STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING-----------------
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+  \textbf{\href{http://saivaibhav.com/}{\Large Sai Medavarapu}} & Email : \href{mailto:vaibhav.medavarapu@gmail.com}{vaibhav.medavarapu@gmail.com}\\
+  \href{http://saivaibhav.com/}{saivaibhav.com} & Mobile : +1-602-703-0994 
+\end{tabular*}
+%-----------SUMMARY-----------------
+%\section{Summary}
+
+ %  {Graduate level computer science student with experience in areas such as, web development, leadership, team-collaboration, teaching as well as project management and solid understanding of SDLC.}
+   
+
+%-----------EDUCATION-----------------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Texas A \& M University}{Corpus Christi, TX}
+      {Master of Science in Computer Science;  GPA: 3.70}{Aug. 2017 -- May. 2019}
+    \resumeSubheading
+      {Jawaharlal Nehru Technological University}{Hyderabad, India}
+      {Bachelor of Computer Science and Engineering}{Aug. 2013 -- May. 2017}
+  \resumeSubHeadingListEnd
+
+
+%-----------EXPERIENCE-----------------
+\section{Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Texas A \& M University}{Corpus Christi, TX}
+      {Head Graduate Teaching Assistant - Computer Science}{Aug 2017 - Present}
+     \resumeItemListStart
+        \resumeItem {Teaching} {Assist professor in Data Structures Using C++(COSC2437) and Artificial Intelligence \href{http://catalog.tamucc.edu/preview_course_nopop.php?catoid=5&coid=4433} {COSC-4330}.}
+         \resumeItem{Training}
+          {Training the new TA's on writing the efficient code.}
+        \resumeItem {Debugging}	{Helping the students to build the logic for their lab activity, programming assignments, debugging code.}
+        \resumeItem{Grading}	{Grading the students programming assignments by checking all possible errors and assigning the grade.}
+       \resumeItem {Assisting} {Assisting students for a variety of languages viz., C, C++, JAVA, Python and COBOL. Additionally, I assist in Machine learning concepts, network programming and usage of Linux.}
+        \resumeItem{Managing}
+          { Bi-weekly meetings  on frequent errors and issues of students by observing the patterns from FAQ's.}
+         \resumeItem{Resource allocation}
+          {Plotting the graph of Programming Assistant Lab check in and checkout timings of students and allocating TA's to busiest slots by observing the pattern.}
+   \resumeItemListEnd
+
+    \resumeSubheading
+      {SP Global Solution}{Hyderbad, India}
+      {Full Stack Intern}{Jan 17 – June’17}
+      \resumeItemListStart
+        \resumeItem{Print Module}
+          {Responsible for development of webpage for Health services using HTML5, Bootstrap and Angular. Firstly, worked on the print module, where the user should be able to print from the webpage without downloading.}
+        \resumeItem{Authentication}
+          {Worked on User authentication module to create a form and Http Authentication using JSON Tokens. }
+      \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+
+%-----------PROJECTS-----------------
+\section{Projects}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Object Detection Using Faster RCNN:  }{\href{https://www.youtube.com/watch?v=X9i-DROJGkg}{Implementation}}
+      {You Only Look Once: YOLO}{}
+      \resumeItemListStart
+        \resumeItem {Description} {	Machine learning based computer vision project where I developed the entire code and connected the YOLO to my webcam and ensured it maintains the real-time performance and display the detections. I used Python, OpenCV and Pytorch in this project}
+        \resumeItem{URL} { https://github.com/saiMedavarapu/YOLO---You-Only-Look-Once-Deep-Learning-Model}
+        \resumeItemListEnd
+    \resumeSubheading
+        {Bank Churn Prediction} {}{Neural Network Model} {}
+          \resumeItemListStart
+        \resumeItem {Description} {	A prediction model built using neural networks to identify the customer churn in bank and tested with few inputs. This model has three hidden layers with Softmax and Relu activation functions.}
+         \resumeItem{URL} {https://github.com/saiMedavarapu/BankChurnPrediction}
+         \resumeItemListEnd
+    \resumeSubheading
+        {Diabetes prediction and Detection} {}{Neural Network Model} {}
+          \resumeItemListStart
+        \resumeItem {Description} {	•	A python project which predicts the diabetes of the patient other health conditions using the trained data found from PIMA dataset of Arizona diabetes patients by using the logistic regression}
+         \resumeItem{URL} {https://github.com/saiMedavarapu/Diabetes-Prediction}
+\resumeSubHeadingListEnd
+%
+%--------PROGRAMMING SKILLS------------
+\section{Programming Skills}
+  \resumeSubHeadingListStart
+    \item{
+      \textbf{Languages}{: Python, Javascript, TypeScript C++, SQL, Java.}
+      \hfill
+      {\href{https://www.linkedin.com/in/sai-vaibhav-medavarapu-448a7a113/}{\textbf{LinkdIn profile}}}
+    }
+    \item{\textbf{Frameworks}{: Tensorflow, Keras, PyTorch, OpenCV, Angular - ng-openCV.  }
+    \hfill
+      {\href{https://github.com/saiMedavarapu}{\textbf{Github Profile}}}
+    }
+    \resumeSubHeadingListEnd
+
+
+%-------------------------------------------
+\end{document}
