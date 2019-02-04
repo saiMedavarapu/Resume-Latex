@@ -1,6 +1,3 @@
-## Resume
-
-[embed]/saiMedavarapu_DataScience.pdf[/embed]
 
 ### How Important Is a One-Page Resume?
 Recruiters always love those who are able to deliver them with productive results without utilizing much of their time.
