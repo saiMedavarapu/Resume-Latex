@@ -6,3 +6,9 @@ A single-page, one-column resume for software developers. It uses the base latex
 
 ### Preview
 ![Resume Screenshot](/resume.png)
+
+
+### Reference: 
+1) Sourav Bajaj Latex Template : https://github.com/sb2nov/resume.git
+2) Latex - Template for resume
+3) Advantages of Single page Resume: https://content.wisestep.com/why-your-resume-should-be-one-page-good-reasons/
